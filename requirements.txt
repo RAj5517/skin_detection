@@ -1,0 +1,10 @@
+ultralytics>=8.3.0
+torch>=2.0.0
+opencv-python
+matplotlib
+numpy
+pandas
+scikit-learn
+grad-cam
+Pillow
+onnx

@@ -1,0 +1,25 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Dataset (too large)
+data/images/
+data/labels/
+data/*.zip
+data/*.csv
+data/*.jpg
+data/*.png
+
+# Model weights
+models/*.pt
+models/*.onnx
+runs/
+
+# Outputs
+outputs/gradcam/*.png
+outputs/predictions/*.png
+
+# OS
+.DS_Store
+Thumbs.db
