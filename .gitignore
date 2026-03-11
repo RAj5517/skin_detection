@@ -3,22 +3,23 @@ __pycache__/
 *.pyc
 .env
 
-# Dataset (too large)
-data/images/
-data/labels/
+# datasets
+data/images_raw/
+data/labels_raw/
+data/masks_raw/
+data/yolo/
 data/*.zip
 data/*.csv
-data/*.jpg
-data/*.png
 
-# Model weights
-models/*.pt
-models/*.onnx
+# model weights
+*.pt
+*.onnx
+
+# training runs
 runs/
 
-# Outputs
-outputs/gradcam/*.png
-outputs/predictions/*.png
+# outputs
+outputs/
 
 # OS
 .DS_Store

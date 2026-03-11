@@ -1,0 +1,13 @@
+path: C:/Users/sayan/OneDrive/Desktop/skin_detection/data/yolo
+train: train/images
+val: val/images
+
+nc: 7
+names:
+  0: MEL
+  1: NV
+  2: BCC
+  3: AKIEC
+  4: BKL
+  5: DF
+  6: VASC
